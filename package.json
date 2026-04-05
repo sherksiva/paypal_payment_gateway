@@ -1,0 +1,29 @@
+{
+  "name": "express-payment-gateway",
+  "version": "1.0.0",
+  "description": "payment gateway sample paypal",
+  "keywords": [
+    "payment",
+    "gateway"
+  ],
+  "homepage": "https://github.com/sherksiva/paypal_payment_gateway#readme",
+  "bugs": {
+    "url": "https://github.com/sherksiva/paypal_payment_gateway/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherksiva/paypal_payment_gateway.git"
+  },
+  "license": "MIT",
+  "author": "SivaprakashRaman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {}
+}
