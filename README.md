@@ -9,3 +9,15 @@ before getting client_id and secret_key we need to create application.
 1. Create Paypal sandbox (Rest API Apps)
 2. After app created you will get client key and secret key
 3. Those keys only we used in our node application.
+
+#### Start the application
+
+```
+git clone https://github.com/sherksiva/paypal_payment_gateway.git
+```
+```
+npm install
+```
+```
+node index.js
+```
